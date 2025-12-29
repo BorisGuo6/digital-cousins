@@ -91,7 +91,7 @@ conda activate acdc
    
         ```bash
         git clone https://github.com/IDEA-Research/GroundingDINO.git && cd GroundingDINO
-        export CUDA_HOME=/PATH/TO/cuda-12.3   # Make sure to set this!
+        export CUDA_HOME= /usr/local/cuda-12.4
         pip install --no-build-isolation -e . && cd ..
         ```
 
