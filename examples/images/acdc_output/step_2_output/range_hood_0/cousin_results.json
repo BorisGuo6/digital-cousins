@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "range_hood",
+            "model": "duqgcu",
+            "ori_offset": null,
+            "z_angle": 0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/range_hood/model/duqgcu/duqgcu_51.png"
+        },
+        {
+            "category": "range_hood",
+            "model": "ylsdmp",
+            "ori_offset": null,
+            "z_angle": -0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/range_hood/model/ylsdmp/ylsdmp_49.png"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "picture_frame",
+            "model": "lxpxcf",
+            "ori_offset": null,
+            "z_angle": -1.5079644737231006,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/picture_frame/model/lxpxcf/lxpxcf_26.png"
+        },
+        {
+            "category": "picture_frame",
+            "model": "pblkaf",
+            "ori_offset": null,
+            "z_angle": -1.5079644737231006,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/picture_frame/model/pblkaf/pblkaf_26.png"
+        }
+    ]
+}

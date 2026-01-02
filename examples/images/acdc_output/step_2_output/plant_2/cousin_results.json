@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "pot_plant",
+            "model": "jgkozi",
+            "ori_offset": null,
+            "z_angle": -2.0734511513692633,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/pot_plant/model/jgkozi/jgkozi_17.png"
+        },
+        {
+            "category": "pot_plant",
+            "model": "vycujf",
+            "ori_offset": null,
+            "z_angle": -0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/pot_plant/model/vycujf/vycujf_49.png"
+        }
+    ]
+}

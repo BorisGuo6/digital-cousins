@@ -1,0 +1,19 @@
+{
+    "articulated": true,
+    "cousins": [
+        {
+            "category": "bottom_cabinet_no_top",
+            "model": "wamrju",
+            "ori_offset": null,
+            "z_angle": 0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet_no_top/model/wamrju/wamrju_51.png"
+        },
+        {
+            "category": "bottom_cabinet_no_top",
+            "model": "pluwfl",
+            "ori_offset": null,
+            "z_angle": 0.1256637061435919,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet_no_top/model/pluwfl/pluwfl_52.png"
+        }
+    ]
+}

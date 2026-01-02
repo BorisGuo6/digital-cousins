@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "coffee_table",
+            "model": "qplrhv",
+            "ori_offset": null,
+            "z_angle": -0.6283185307179586,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/coffee_table/model/qplrhv/qplrhv_40.png"
+        },
+        {
+            "category": "nightstand",
+            "model": "gjwjtj",
+            "ori_offset": null,
+            "z_angle": 1.5707963267948966,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/nightstand/model/gjwjtj/gjwjtj_75.png"
+        }
+    ]
+}

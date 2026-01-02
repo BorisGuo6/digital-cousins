@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "frying_pan",
+            "model": "hzspwg",
+            "ori_offset": null,
+            "z_angle": -2.199114857512855,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/frying_pan/model/hzspwg/hzspwg_15.png"
+        },
+        {
+            "category": "frying_pan",
+            "model": "snvhlz",
+            "ori_offset": null,
+            "z_angle": -1.6336281798666925,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/frying_pan/model/snvhlz/snvhlz_24.png"
+        }
+    ]
+}

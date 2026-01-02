@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "jar",
+            "model": "jnjtrl",
+            "ori_offset": null,
+            "z_angle": -0.1256637061435919,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/jar/model/jnjtrl/jnjtrl_48.png"
+        },
+        {
+            "category": "jar_of_jam",
+            "model": "vxjbjf",
+            "ori_offset": null,
+            "z_angle": 2.010619298297467,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/jar_of_jam/model/vxjbjf/vxjbjf_82.png"
+        }
+    ]
+}

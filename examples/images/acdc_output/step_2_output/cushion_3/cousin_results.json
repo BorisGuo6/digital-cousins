@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "pillow",
+            "model": "hrmwzv",
+            "ori_offset": null,
+            "z_angle": -1.2566370614359175,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/pillow/model/hrmwzv/hrmwzv_30.png"
+        },
+        {
+            "category": "pillow",
+            "model": "zblvpg",
+            "ori_offset": null,
+            "z_angle": -0.816814089933346,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/pillow/model/zblvpg/zblvpg_37.png"
+        }
+    ]
+}

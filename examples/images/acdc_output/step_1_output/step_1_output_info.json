@@ -1,0 +1,51 @@
+{
+    "K": [
+        [
+            1812.1380615234375,
+            0.0,
+            800.0
+        ],
+        [
+            0.0,
+            1541.948974609375,
+            646.0
+        ],
+        [
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "detected_categories": "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/step_1_detected_categories.json",
+    "floor_mask": "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/segmented_objects/floor/floor_mask.png",
+    "wall_mask_planes": {
+        "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_mask.png": {
+            "normal": [
+                0.5396498519100372,
+                0.041598067740440794,
+                -0.8408612478249529
+            ],
+            "point": [
+                -1.160046885391175,
+                -1.4272012034632908,
+                5.3399658203125
+            ]
+        }
+    },
+    "z_direction": [
+        -0.01314176733548901,
+        -0.9983899323183291,
+        -0.05518004165187102
+    ],
+    "origin_pos": [
+        -1.0339086256210805,
+        0.9769740556620121,
+        2.913818359375
+    ],
+    "input_rgb": "/mnt/data/workspace/digital-cousins/examples/images/living_room_gsam_box_0.22_gam_text_0.18_resize.png",
+    "input_depth": "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/step_1_depth.png",
+    "depth_limits": [
+        0.0,
+        20.0
+    ]
+}

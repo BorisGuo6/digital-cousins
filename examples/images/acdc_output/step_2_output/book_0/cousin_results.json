@@ -1,0 +1,27 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "paperback_book",
+            "model": "lzdite",
+            "ori_offset": [
+                -3.078214197862683,
+                -0.039720686852728226,
+                -3.0540868320096197
+            ],
+            "z_angle": -6.007183926384025,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/paperback_book/model/lzdite/lzdite_3.png"
+        },
+        {
+            "category": "paperback_book",
+            "model": "yomcyv",
+            "ori_offset": [
+                -3.0782144826226,
+                -0.03972212445562673,
+                -3.054091795362803
+            ],
+            "z_angle": -4.876215534444883,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/paperback_book/model/yomcyv/yomcyv_21.png"
+        }
+    ]
+}

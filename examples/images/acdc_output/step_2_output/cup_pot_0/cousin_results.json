@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "mug",
+            "model": "jgethp",
+            "ori_offset": null,
+            "z_angle": -0.5654866776461631,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/mug/model/jgethp/jgethp_41.png"
+        },
+        {
+            "category": "coffee_cup",
+            "model": "dkxddg",
+            "ori_offset": null,
+            "z_angle": -2.261946710584651,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/coffee_cup/model/dkxddg/dkxddg_14.png"
+        }
+    ]
+}

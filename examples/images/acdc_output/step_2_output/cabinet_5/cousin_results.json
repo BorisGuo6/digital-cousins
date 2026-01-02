@@ -1,0 +1,19 @@
+{
+    "articulated": true,
+    "cousins": [
+        {
+            "category": "bottom_cabinet",
+            "model": "pzjecb",
+            "ori_offset": null,
+            "z_angle": 0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet/model/pzjecb/pzjecb_51.png"
+        },
+        {
+            "category": "bottom_cabinet",
+            "model": "smujam",
+            "ori_offset": null,
+            "z_angle": -0.1256637061435919,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet/model/smujam/smujam_48.png"
+        }
+    ]
+}

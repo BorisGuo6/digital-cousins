@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "bath_towel",
+            "model": "thmepr",
+            "ori_offset": null,
+            "z_angle": -1.5079644737231006,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bath_towel/model/thmepr/thmepr_26.png"
+        },
+        {
+            "category": "hand_towel",
+            "model": "klevhj",
+            "ori_offset": null,
+            "z_angle": 2.9530970943744057,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/hand_towel/model/klevhj/klevhj_97.png"
+        }
+    ]
+}

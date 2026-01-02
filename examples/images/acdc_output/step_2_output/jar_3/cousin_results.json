@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "jar",
+            "model": "mefezc",
+            "ori_offset": null,
+            "z_angle": -3.141592653589793,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/jar/model/mefezc/mefezc_0.png"
+        },
+        {
+            "category": "jar",
+            "model": "qdnmwg",
+            "ori_offset": null,
+            "z_angle": -2.827433388230814,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/jar/model/qdnmwg/qdnmwg_5.png"
+        }
+    ]
+}

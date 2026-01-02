@@ -1,0 +1,19 @@
+{
+    "articulated": true,
+    "cousins": [
+        {
+            "category": "bottom_cabinet",
+            "model": "eluyvx",
+            "ori_offset": null,
+            "z_angle": -1.1938052083641215,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet/model/eluyvx/eluyvx_31.png"
+        },
+        {
+            "category": "bottom_cabinet",
+            "model": "pkdnbu",
+            "ori_offset": null,
+            "z_angle": 0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet/model/pkdnbu/pkdnbu_51.png"
+        }
+    ]
+}

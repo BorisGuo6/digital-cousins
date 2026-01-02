@@ -1,0 +1,19 @@
+{
+    "articulated": true,
+    "cousins": [
+        {
+            "category": "bottom_cabinet_no_top",
+            "model": "ufhpbn",
+            "ori_offset": null,
+            "z_angle": -0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet_no_top/model/ufhpbn/ufhpbn_49.png"
+        },
+        {
+            "category": "bottom_cabinet_no_top",
+            "model": "wtnrwl",
+            "ori_offset": null,
+            "z_angle": -0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet_no_top/model/wtnrwl/wtnrwl_49.png"
+        }
+    ]
+}

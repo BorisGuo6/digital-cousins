@@ -1,0 +1,19 @@
+{
+    "articulated": true,
+    "cousins": [
+        {
+            "category": "top_cabinet",
+            "model": "nitufd",
+            "ori_offset": null,
+            "z_angle": -1.6336281798666925,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/top_cabinet/model/nitufd/nitufd_24.png"
+        },
+        {
+            "category": "bottom_cabinet_no_top",
+            "model": "vdedzt",
+            "ori_offset": null,
+            "z_angle": -0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet_no_top/model/vdedzt/vdedzt_49.png"
+        }
+    ]
+}
