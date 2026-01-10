@@ -2,18 +2,18 @@
     "articulated": false,
     "cousins": [
         {
-            "category": "mug",
-            "model": "fapsrj",
+            "category": "pot_plant",
+            "model": "usrbxb",
             "ori_offset": null,
-            "z_angle": 1.8849555921538759,
-            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/mug/model/fapsrj/fapsrj_80.png"
+            "z_angle": -0.9424777960769379,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/pot_plant/model/usrbxb/usrbxb_35.png"
         },
         {
-            "category": "mug",
-            "model": "ehnmxj",
+            "category": "pot_plant",
+            "model": "vycujf",
             "ori_offset": null,
-            "z_angle": -2.5132741228718345,
-            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/mug/model/ehnmxj/ehnmxj_10.png"
+            "z_angle": -1.5707963267948966,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/pot_plant/model/vycujf/vycujf_25.png"
         }
     ]
 }

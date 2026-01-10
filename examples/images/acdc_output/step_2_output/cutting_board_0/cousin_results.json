@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "chopping_board",
+            "model": "bzauwp",
+            "ori_offset": null,
+            "z_angle": 1.2566370614359172,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/chopping_board/model/bzauwp/bzauwp_70.png"
+        },
+        {
+            "category": "chopping_board",
+            "model": "ayegwd",
+            "ori_offset": null,
+            "z_angle": 3.0787608005179976,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/chopping_board/model/ayegwd/ayegwd_99.png"
+        }
+    ]
+}

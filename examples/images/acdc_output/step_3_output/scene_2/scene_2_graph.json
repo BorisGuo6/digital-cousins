@@ -1,0 +1,366 @@
+{
+    "floor": {
+        "objOnTop": [
+            "cabinet_0",
+            "cabinet_11",
+            "cabinet_12",
+            "cabinet_2",
+            "cabinet_1",
+            "cabinet_14",
+            "cabinet_13",
+            "cabinet_3",
+            "cabinet_4",
+            "towel_0",
+            "cabinet_16",
+            "cabinet_5"
+        ],
+        "objBeneath": null,
+        "mount": {
+            "floor": true,
+            "wall": false
+        }
+    },
+    "cabinet_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_11": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_12": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_2": {
+        "objOnTop": [
+            "pan_pot_1",
+            "pan_pot_0",
+            "range_hood_0"
+        ],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_1": {
+        "objOnTop": [
+            "cutting_board_1",
+            "plant_2",
+            "cup_0"
+        ],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_14": {
+        "objOnTop": [
+            "bowl_0"
+        ],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_13": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_3": {
+        "objOnTop": [
+            "cutting_board_0",
+            "plant_0",
+            "plant_1"
+        ],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_4": {
+        "objOnTop": [
+            "bowl_cup_1",
+            "bowl_cup_0"
+        ],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "pan_pot_1": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_2",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "cutting_board_1": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_1",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "pan_pot_0": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_2",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "cutting_board_0": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_3",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "bowl_0": {
+        "objOnTop": [
+            "cabinet_9"
+        ],
+        "objBeneath": "cabinet_14",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "bowl_cup_1": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_4",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "bowl_cup_0": {
+        "objOnTop": [
+            "cabinet_7"
+        ],
+        "objBeneath": "cabinet_4",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "towel_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "plant_2": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_1",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "cup_0": {
+        "objOnTop": [
+            "cabinet_19"
+        ],
+        "objBeneath": "cabinet_1",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "plant_0": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_3",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "plant_1": {
+        "objOnTop": [
+            "cabinet_17"
+        ],
+        "objBeneath": "cabinet_3",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "cabinet_19": {
+        "objOnTop": [
+            "cabinet_15"
+        ],
+        "objBeneath": "cup_0",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_9": {
+        "objOnTop": [
+            "cabinet_8"
+        ],
+        "objBeneath": "bowl_0",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_17": {
+        "objOnTop": [
+            "cabinet_10"
+        ],
+        "objBeneath": "plant_1",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_16": {
+        "objOnTop": [
+            "cabinet_18"
+        ],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_7": {
+        "objOnTop": [
+            "cabinet_6"
+        ],
+        "objBeneath": "bowl_cup_0",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_5": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "range_hood_0": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_2",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_8": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_9",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_18": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_16",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_15": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_19",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_10": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_17",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    },
+    "cabinet_6": {
+        "objOnTop": [],
+        "objBeneath": "cabinet_7",
+        "mount": {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        }
+    }
+}

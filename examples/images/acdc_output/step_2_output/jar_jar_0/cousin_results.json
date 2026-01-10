@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "jar",
+            "model": "gqtsam",
+            "ori_offset": null,
+            "z_angle": 0.5654866776461627,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/jar/model/gqtsam/gqtsam_59.png"
+        },
+        {
+            "category": "jar",
+            "model": "qdnmwg",
+            "ori_offset": null,
+            "z_angle": 2.9530970943744057,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/jar/model/qdnmwg/qdnmwg_97.png"
+        }
+    ]
+}

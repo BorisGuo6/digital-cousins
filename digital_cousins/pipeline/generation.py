@@ -11,12 +11,34 @@ from omnigibson.scenes import Scene
 from omnigibson.objects import DatasetObject
 from omnigibson.object_states import Touching
 from omnigibson.object_states import ToggledOn
+from omnigibson.utils.asset_utils import get_all_object_categories, get_all_object_category_models
 import digital_cousins
 from digital_cousins.utils.processing_utils import NumpyTorchEncoder, unprocess_depth_linear, compute_point_cloud_from_depth, \
     get_reproject_offset, resize_image
 from digital_cousins.utils.scene_utils import compute_relative_cam_pose_from, align_model_pose, compute_object_z_offset, \
     compute_obj_bbox_info, align_obj_with_wall, get_vis_cam_trajectory
 import digital_cousins.utils.transform_utils as T
+
+
+def is_valid_category_model(category, model):
+    """
+    Check if a category/model combination exists in the BEHAVIOR dataset.
+    
+    Args:
+        category (str): Object category name
+        model (str): Model name
+        
+    Returns:
+        bool: True if the category/model combination is valid
+    """
+    try:
+        all_categories = get_all_object_categories()
+        if category not in all_categories:
+            return False
+        all_models = get_all_object_category_models(category)
+        return model in all_models
+    except Exception:
+        return False
 
 # Set of non-collidable categories
 NON_COLLIDABLE_CATEGORIES = {
@@ -232,13 +254,25 @@ class SimulatedSceneGenerator:
                 # Infer cousin category and model
                 # Assumes path is XXX/.../<CATEGORY>/model/<MODEL>/<MODEL>_<ANGLE>
                 cousin_info = obj_info["cousins"][obj_cousin_idx]
+                
+                # Validate that category/model exists in BEHAVIOR dataset
+                category = cousin_info["category"]
+                model = cousin_info["model"]
+                if not is_valid_category_model(category, model):
+                    if self.verbose:
+                        print(f"WARNING: Skipping {obj_name} - category '{category}' with model '{model}' not found in BEHAVIOR dataset")
+                    # Add to discard_objs to skip in later processing
+                    if discard_objs is None:
+                        discard_objs = set()
+                    discard_objs.add(obj_name)
+                    continue
 
                 # Import the cousin asset, stepping to make sure it's initialized properly
                 with og.sim.stopped():
                     obj = DatasetObject(
                         name=obj_name,
-                        category=cousin_info["category"],
-                        model=cousin_info["model"],
+                        category=category,
+                        model=model,
                         visual_only=True
                     )
                     scene.add_object(obj)
@@ -697,10 +731,18 @@ class SimulatedSceneGenerator:
         # Load all objects
         with og.sim.stopped():
             for obj_name, obj_info in scene_info["objects"].items():
+                category = obj_info["category"]
+                model = obj_info["model"]
+                
+                # Validate that category/model exists in BEHAVIOR dataset
+                if not is_valid_category_model(category, model):
+                    print(f"WARNING: Skipping {obj_name} - category '{category}' with model '{model}' not found in BEHAVIOR dataset")
+                    continue
+                    
                 obj = DatasetObject(
                     name=obj_name,
-                    category=obj_info["category"],
-                    model=obj_info["model"],
+                    category=category,
+                    model=model,
                     visual_only=visual_only,
                     scale=obj_info["scale"]
                 )

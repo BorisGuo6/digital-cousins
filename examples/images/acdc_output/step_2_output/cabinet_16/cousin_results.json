@@ -2,18 +2,18 @@
     "articulated": true,
     "cousins": [
         {
-            "category": "top_cabinet",
-            "model": "nitufd",
+            "category": "bottom_cabinet_no_top",
+            "model": "ufhpbn",
             "ori_offset": null,
-            "z_angle": -1.5707963267948966,
-            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/top_cabinet/model/nitufd/nitufd_25.png"
+            "z_angle": 0.0,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet_no_top/model/ufhpbn/ufhpbn_50.png"
         },
         {
-            "category": "top_cabinet",
-            "model": "ldmnwh",
+            "category": "bottom_cabinet",
+            "model": "bycegi",
             "ori_offset": null,
-            "z_angle": -1.6336281798666925,
-            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/top_cabinet/model/ldmnwh/ldmnwh_24.png"
+            "z_angle": -0.06283185307179595,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/bottom_cabinet/model/bycegi/bycegi_49.png"
         }
     ]
 }

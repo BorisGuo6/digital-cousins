@@ -1,198 +1,537 @@
 {
     "names": [
-        "rug_0",
-        "armchair_0",
-        "picture_0",
-        "picture_1",
-        "armchair_1",
-        "sofa_0",
-        "cushion_0",
-        "cushion_1",
-        "side_table_0",
-        "cushion_2",
-        "cushion_3",
-        "cushion_4",
-        "book_0",
-        "book_1",
-        "book_2",
-        "side_table_1",
+        "towel_0",
+        "range_hood_0",
+        "pan_pot_0",
+        "cutting_board_0",
+        "cutting_board_1",
+        "bowl_0",
         "plant_0",
-        "plant_1"
+        "pan_pot_1",
+        "cabinet_0",
+        "plant_1",
+        "cabinet_1",
+        "cabinet_2",
+        "cabinet_3",
+        "jar_spice_jar_0",
+        "cabinet_4",
+        "cabinet_5",
+        "plant_2",
+        "cabinet_6",
+        "cabinet_7",
+        "cabinet_8",
+        "cabinet_9",
+        "cabinet_10",
+        "cup_0",
+        "bowl_cup_0",
+        "bowl_cup_1",
+        "jar_jar_0",
+        "spice_jar_0",
+        "cabinet_11",
+        "cup_jar_0",
+        "cabinet_12",
+        "cup_1",
+        "spice_jar_1",
+        "cabinet_13",
+        "cabinet_14",
+        "cabinet_15",
+        "cabinet_16",
+        "cup_2",
+        "cabinet_17",
+        "cabinet_18",
+        "cabinet_19",
+        "board_0"
     ],
     "phrases": [
-        "rug",
-        "armchair",
-        "picture",
-        "picture",
-        "armchair",
-        "sofa",
-        "cushion",
-        "cushion",
-        "side table",
-        "cushion",
-        "cushion",
-        "cushion",
-        "book",
-        "book",
-        "book",
-        "side table",
+        "towel",
+        "range hood",
+        "pan pot",
+        "cutting board",
+        "cutting board",
+        "bowl",
         "plant",
-        "plant"
+        "pan pot",
+        "cabinet",
+        "plant",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "jar spice jar",
+        "cabinet",
+        "cabinet",
+        "plant",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cup",
+        "bowl cup",
+        "bowl cup",
+        "jar jar",
+        "spice jar",
+        "cabinet",
+        "cup jar",
+        "cabinet",
+        "cup",
+        "spice jar",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cup",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "board"
     ],
     "phrases_recaptioned": [
-        "rug",
-        "armchair",
-        "framed picture",
-        "framed picture",
-        "armchair",
-        "sofa",
-        "cushion",
-        "cushion",
-        "side table",
-        "cushion",
-        "cushion",
-        "cushion",
-        "book",
-        "book",
-        "book",
-        "coffee table",
-        "side table",
-        "plant"
+        "towel",
+        "range hood",
+        "pot",
+        "cutting board",
+        "cutting board",
+        "cup",
+        "plant",
+        "pan",
+        "cabinet",
+        "plant",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "spice jar",
+        "cabinet",
+        "cabinet",
+        "plant",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "plant",
+        "cup",
+        "cup",
+        "jar",
+        "spice jar",
+        "cabinet",
+        "jar",
+        "cabinet",
+        "jar",
+        "spice jar",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "jar",
+        "cabinet",
+        "cabinet",
+        "cabinet",
+        "jar"
     ],
-    "segmentation_dir": "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/segmented_objects",
-    "articulation_counts": {},
+    "segmentation_dir": "examples/images/acdc_output/step_1_output/segmented_objects",
+    "articulation_counts": {
+        "8": [
+            1,
+            1
+        ],
+        "10": [
+            0,
+            3
+        ],
+        "11": [
+            0,
+            3
+        ],
+        "12": [
+            0,
+            3
+        ],
+        "14": [
+            1,
+            0
+        ],
+        "15": [
+            2,
+            0
+        ],
+        "17": [
+            2,
+            0
+        ],
+        "18": [
+            2,
+            0
+        ],
+        "19": [
+            3,
+            0
+        ],
+        "20": [
+            2,
+            0
+        ],
+        "21": [
+            2,
+            0
+        ],
+        "27": [
+            1,
+            0
+        ],
+        "29": [
+            1,
+            0
+        ],
+        "32": [
+            1,
+            0
+        ],
+        "33": [
+            1,
+            0
+        ],
+        "34": [
+            2,
+            0
+        ],
+        "35": [
+            1,
+            0
+        ],
+        "37": [
+            2,
+            0
+        ],
+        "38": [
+            2,
+            0
+        ],
+        "39": [
+            2,
+            0
+        ]
+    },
     "boxes": [
         [
-            0.4662630259990692,
-            0.7944632768630981,
-            0.7260391116142273,
-            0.1972254067659378
+            0.21945039927959442,
+            0.5862234234809875,
+            0.046945810317993164,
+            0.11564141511917114
         ],
         [
-            0.8510075807571411,
-            0.6421180963516235,
-            0.29184743762016296,
-            0.27598249912261963
+            0.4825699031352997,
+            0.2906571924686432,
+            0.13627518713474274,
+            0.3265790641307831
         ],
         [
-            0.26860928535461426,
-            0.31465670466423035,
-            0.08478158712387085,
-            0.16842132806777954
+            0.5115442872047424,
+            0.6555392146110535,
+            0.05987510085105896,
+            0.057278819382190704
         ],
         [
-            0.16462266445159912,
-            0.31245049834251404,
-            0.0919494777917862,
-            0.17567087709903717
+            0.2783960700035095,
+            0.6726881265640259,
+            0.06183348223567009,
+            0.016811976209282875
         ],
         [
-            0.6550485491752625,
-            0.6099276542663574,
-            0.25701776146888733,
-            0.2416042536497116
+            0.6142756938934326,
+            0.6867130994796753,
+            0.06209028512239456,
+            0.017812713980674744
         ],
         [
-            0.264545738697052,
-            0.619798481464386,
-            0.44739171862602234,
-            0.2675655484199524
+            0.857891857624054,
+            0.6617879271507263,
+            0.02609928697347641,
+            0.023950034752488136
         ],
         [
-            0.6694032549858093,
-            0.5581611394882202,
-            0.09110624343156815,
-            0.07955809682607651
+            0.32309290766716003,
+            0.5355698466300964,
+            0.02553045004606247,
+            0.05259065702557564
         ],
         [
-            0.8641951084136963,
-            0.5839467644691467,
-            0.11449740082025528,
-            0.09238769859075546
+            0.4300878942012787,
+            0.6688295006752014,
+            0.07664012908935547,
+            0.05734982341527939
         ],
         [
-            0.02625180594623089,
-            0.6907997727394104,
-            0.052153535187244415,
-            0.15815508365631104
+            0.03446585312485695,
+            0.8538404107093811,
+            0.06853974610567093,
+            0.2909458875656128
         ],
         [
-            0.36001819372177124,
-            0.5509546399116516,
-            0.08811850100755692,
-            0.07847794890403748
+            0.2994283437728882,
+            0.5467787981033325,
+            0.015233958140015602,
+            0.02993028610944748
         ],
         [
-            0.15218228101730347,
-            0.5689038038253784,
-            0.10411617159843445,
-            0.08418647199869156
+            0.7174996137619019,
+            0.8382580876350403,
+            0.1711243987083435,
+            0.25175026059150696
         ],
         [
-            0.25974205136299133,
-            0.5605931878089905,
-            0.09565988183021545,
-            0.0806599035859108
+            0.48187360167503357,
+            0.8399847149848938,
+            0.20962058007717133,
+            0.25097936391830444
         ],
         [
-            0.3928475081920624,
-            0.6567112803459167,
-            0.06806342303752899,
-            0.02434251457452774
+            0.24687743186950684,
+            0.836796760559082,
+            0.17080731689929962,
+            0.2528154253959656
         ],
         [
-            0.45794618129730225,
-            0.607647716999054,
-            0.059895627200603485,
-            0.022842274978756905
+            0.9156461358070374,
+            0.6444839835166931,
+            0.025636855512857437,
+            0.05824210122227669
         ],
         [
-            0.4532018303871155,
-            0.6249217987060547,
-            0.07598252594470978,
-            0.0217057503759861
+            0.11586330831050873,
+            0.833641529083252,
+            0.09152177721261978,
+            0.25241589546203613
         ],
         [
-            0.48842674493789673,
-            0.6914107799530029,
-            0.19704197347164154,
-            0.16308636963367462
+            0.029567575082182884,
+            0.25552627444267273,
+            0.0588204525411129,
+            0.4708728790283203
         ],
         [
-            0.01592879928648472,
-            0.5903104543685913,
-            0.031696613878011703,
-            0.060248542577028275
+            0.7009457945823669,
+            0.545358419418335,
+            0.01743459142744541,
+            0.03612073138356209
         ],
         [
-            0.4901723563671112,
-            0.532356321811676,
-            0.1257455050945282,
-            0.31785985827445984
+            0.13481898605823517,
+            0.16087576746940613,
+            0.14735788106918335,
+            0.13138166069984436
+        ],
+        [
+            0.13454967737197876,
+            0.35855311155319214,
+            0.1446111500263214,
+            0.2699079215526581
+        ],
+        [
+            0.8393402099609375,
+            0.16159942746162415,
+            0.1645328849554062,
+            0.12946198880672455
+        ],
+        [
+            0.8414376378059387,
+            0.36127886176109314,
+            0.16433203220367432,
+            0.2726495563983917
+        ],
+        [
+            0.29980847239494324,
+            0.15130078792572021,
+            0.18273526430130005,
+            0.14437690377235413
+        ],
+        [
+            0.6767410039901733,
+            0.5464998483657837,
+            0.016402732580900192,
+            0.03408201411366463
+        ],
+        [
+            0.18167191743850708,
+            0.656633198261261,
+            0.026456398889422417,
+            0.031221892684698105
+        ],
+        [
+            0.15157319605350494,
+            0.6578777432441711,
+            0.028641151264309883,
+            0.03173075243830681
+        ],
+        [
+            0.2680342495441437,
+            0.6374873518943787,
+            0.02757616899907589,
+            0.07106268405914307
+        ],
+        [
+            0.8778609037399292,
+            0.6396739482879639,
+            0.013674972578883171,
+            0.06184867396950722
+        ],
+        [
+            0.3549829125404358,
+            0.838340163230896,
+            0.04521971940994263,
+            0.24847060441970825
+        ],
+        [
+            0.2739676237106323,
+            0.5450823903083801,
+            0.024311356246471405,
+            0.033916644752025604
+        ],
+        [
+            0.6097158193588257,
+            0.8384129405021667,
+            0.04588939994573593,
+            0.2483792006969452
+        ],
+        [
+            0.29303789138793945,
+            0.6512729525566101,
+            0.01478904765099287,
+            0.03235890343785286
+        ],
+        [
+            0.8947306275367737,
+            0.6394051313400269,
+            0.015416350215673447,
+            0.0670882910490036
+        ],
+        [
+            0.8517600893974304,
+            0.83556067943573,
+            0.09661939740180969,
+            0.2510417699813843
+        ],
+        [
+            0.9500239491462708,
+            0.8347523808479309,
+            0.09894335269927979,
+            0.2519557476043701
+        ],
+        [
+            0.6683916449546814,
+            0.1586533933877945,
+            0.17641544342041016,
+            0.13086292147636414
+        ],
+        [
+            0.9612519145011902,
+            0.36146169900894165,
+            0.07639321684837341,
+            0.27141574025154114
+        ],
+        [
+            0.6457671523094177,
+            0.5455318093299866,
+            0.019316330552101135,
+            0.022463617846369743
+        ],
+        [
+            0.29340794682502747,
+            0.35857081413269043,
+            0.17350801825523376,
+            0.27677932381629944
+        ],
+        [
+            0.9605281352996826,
+            0.15299402177333832,
+            0.0777331218123436,
+            0.14694075286388397
+        ],
+        [
+            0.6708369255065918,
+            0.35890382528305054,
+            0.1777045726776123,
+            0.2775079607963562
+        ],
+        [
+            0.6437939405441284,
+            0.5598543286323547,
+            0.05445171892642975,
+            0.011508583091199398
         ]
     ],
     "logits": [
-        0.910628616809845,
-        0.5995395183563232,
-        0.5554766654968262,
-        0.5459086298942566,
-        0.6865652203559875,
-        0.8302021026611328,
-        0.5822974443435669,
-        0.5677366852760315,
-        0.5643341541290283,
-        0.4870898127555847,
-        0.4951629936695099,
-        0.4735966920852661,
-        0.306368887424469,
-        0.3373996913433075,
-        0.35487958788871765,
-        0.3417191207408905,
-        0.3153943419456482,
-        0.3818870186805725
+        0.7427999973297119,
+        0.7177468538284302,
+        0.7287401556968689,
+        0.5752516388893127,
+        0.6235964894294739,
+        0.6111950278282166,
+        0.6108373999595642,
+        0.7749171853065491,
+        0.4475895166397095,
+        0.5409955382347107,
+        0.4597596824169159,
+        0.4775860607624054,
+        0.464243084192276,
+        0.3361053466796875,
+        0.44756019115448,
+        0.3836755156517029,
+        0.48762789368629456,
+        0.3148547410964966,
+        0.3001282811164856,
+        0.3149738907814026,
+        0.33837026357650757,
+        0.27086231112480164,
+        0.27602851390838623,
+        0.3353736698627472,
+        0.35150909423828125,
+        0.2969416081905365,
+        0.31905731558799744,
+        0.38626784086227417,
+        0.30781686305999756,
+        0.35873255133628845,
+        0.3226310908794403,
+        0.3561458885669708,
+        0.28303736448287964,
+        0.2780952751636505,
+        0.28114011883735657,
+        0.2906109690666199,
+        0.3315648138523102,
+        0.3197595179080963,
+        0.28339439630508423,
+        0.2881750166416168,
+        0.2673121988773346
     ],
     "mount": [
         {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
             "floor": true,
             "wall": null
         },
@@ -203,14 +542,120 @@
         {
             "floor": false,
             "wall": [
-                "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_mask.png"
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
             ]
         },
         {
             "floor": false,
             "wall": [
-                "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_mask.png"
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
             ]
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": null
         },
         {
             "floor": true,
@@ -219,7 +664,25 @@
         {
             "floor": true,
             "wall": [
-                "/mnt/data/workspace/digital-cousins/examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_mask.png"
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": true,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
+        },
+        {
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
             ]
         },
         {
@@ -227,44 +690,22 @@
             "wall": null
         },
         {
-            "floor": true,
-            "wall": null
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
         },
         {
-            "floor": true,
-            "wall": null
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
         },
         {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
-        },
-        {
-            "floor": true,
-            "wall": null
+            "floor": false,
+            "wall": [
+                "examples/images/acdc_output/step_1_output/segmented_objects/wall/wall_2_mask.png"
+            ]
         },
         {
             "floor": true,

@@ -1,94 +1,209 @@
 {
     "topk_categories": {
-        "rug_0": [
-            "carpet",
-            "bath rug",
-            "yoga mat"
+        "towel_0": [
+            "bath towel",
+            "hand towel",
+            "towel rack"
         ],
-        "armchair_0": [
-            "armchair",
-            "straight chair",
-            "swivel chair"
+        "range_hood_0": [
+            "range hood",
+            "lab exhaust hood",
+            "fireplace"
         ],
-        "picture_0": [
-            "picture frame",
-            "frame",
-            "display case"
+        "pan_pot_0": [
+            "pot plant",
+            "potato",
+            "portafilter"
         ],
-        "picture_1": [
-            "picture frame",
-            "frame",
-            "display case"
+        "cutting_board_0": [
+            "cutting board",
+            "chopping board",
+            "chopping block"
         ],
-        "armchair_1": [
-            "armchair",
-            "straight chair",
-            "swivel chair"
+        "cutting_board_1": [
+            "cutting board",
+            "chopping board",
+            "chopping block"
         ],
-        "sofa_0": [
-            "sofa",
-            "armchair",
-            "bench"
-        ],
-        "cushion_0": [
-            "pillow",
-            "pillowcase",
-            "armchair"
-        ],
-        "cushion_1": [
-            "pillow",
-            "pillowcase",
-            "armchair"
-        ],
-        "side_table_0": [
-            "nightstand",
-            "coffee table",
-            "console table"
-        ],
-        "cushion_2": [
-            "pillow",
-            "pillowcase",
-            "armchair"
-        ],
-        "cushion_3": [
-            "pillow",
-            "pillowcase",
-            "armchair"
-        ],
-        "cushion_4": [
-            "pillow",
-            "pillowcase",
-            "armchair"
-        ],
-        "book_0": [
-            "hardback",
-            "paperback book",
-            "magazine"
-        ],
-        "book_1": [
-            "hardback",
-            "paperback book",
-            "magazine"
-        ],
-        "book_2": [
-            "hardback",
-            "paperback book",
-            "magazine"
-        ],
-        "side_table_1": [
-            "coffee table",
-            "garden coffee table",
-            "conference table"
+        "bowl_0": [
+            "coffee cup",
+            "soda cup",
+            "mug"
         ],
         "plant_0": [
-            "nightstand",
-            "coffee table",
-            "console table"
+            "garden plant",
+            "plant stem",
+            "pot plant"
+        ],
+        "pan_pot_1": [
+            "frying pan",
+            "bap",
+            "rag"
         ],
         "plant_1": [
             "garden plant",
             "plant stem",
             "pot plant"
+        ],
+        "jar_spice_jar_0": [
+            "jar of pepper",
+            "honey jar",
+            "jar"
+        ],
+        "plant_2": [
+            "garden plant",
+            "plant stem",
+            "pot plant"
+        ],
+        "cup_0": [
+            "garden plant",
+            "plant stem",
+            "pot plant"
+        ],
+        "bowl_cup_0": [
+            "coffee cup",
+            "soda cup",
+            "mug"
+        ],
+        "bowl_cup_1": [
+            "coffee cup",
+            "soda cup",
+            "mug"
+        ],
+        "jar_jar_0": [
+            "jar",
+            "jar of jam",
+            "jelly jar"
+        ],
+        "spice_jar_0": [
+            "jar of pepper",
+            "honey jar",
+            "jar"
+        ],
+        "cup_jar_0": [
+            "jar",
+            "jar of jam",
+            "jelly jar"
+        ],
+        "cup_1": [
+            "jar",
+            "jar of jam",
+            "jelly jar"
+        ],
+        "spice_jar_1": [
+            "jar of pepper",
+            "honey jar",
+            "jar"
+        ],
+        "cup_2": [
+            "jar",
+            "jar of jam",
+            "jelly jar"
+        ],
+        "board_0": [
+            "jar",
+            "jar of jam",
+            "jelly jar"
+        ],
+        "cabinet_0": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_1": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_2": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_3": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_4": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_5": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_6": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_7": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_8": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_9": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_10": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_11": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_12": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_13": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_14": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_15": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_16": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_17": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_18": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ],
+        "cabinet_19": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
         ]
     }
 }

@@ -178,6 +178,18 @@ python tests/test_models.py --gpt_api_key <KEY> --gpt_version 4o
 ## Usage
 
 ### ACDC Pipeline
+
+#### Input Requirements
+
+To run ACDC, you only need:
+
+| Required | Description |
+|----------|-------------|
+| **RGB Image** | A single indoor scene image (`.png`, `.jpg`, etc.) |
+| **GPT API Key** | OpenAI API key for object recognition and classification |
+
+#### Running ACDC
+
 Usage is straightforward, simply run our ACDC pipeline on any input image you'd like via our entrypoint:
 ```sh
 python digital_cousins/pipeline/acdc.py --input_path <INPUT_IMG_PATH> [--config <CONFIG>] [--gpt_api_key <KEY>] [--max_retries <N_RETRIES>] [--retry_wait_time <TIME>]
@@ -188,7 +200,61 @@ python digital_cousins/pipeline/acdc.py --input_path <INPUT_IMG_PATH> [--config 
 - `--max_retries` (optional) specifies the maximum number of attempts when querying GPT. If not set, will fall back to the value in the loaded config
 - `--retry_wait_time` (optional) specifies the number of seconds to wait in between GPT re-queries. If not set, will fall back to the value in the loaded config
 
-By default, this will generate all outputs to a directory named `acdc_outputs` in the same directory as `<INPUT_IMG_PATH>`.
+By default, this will generate all outputs to a directory named `acdc_output` in the same directory as `<INPUT_IMG_PATH>`.
+
+#### Output Structure
+
+ACDC generates outputs in three steps, organized as follows:
+
+```
+<INPUT_IMG_DIR>/acdc_output/
+├── step_1_output/                    # Step 1: Real World Extraction
+│   ├── step_1_output_info.json           # Step 1 metadata
+│   ├── step_1_depth.png                  # Estimated depth map
+│   ├── step_1_detected_categories.json   # Detected object categories
+│   └── segmented_objects/                # Segmented object masks
+│       ├── <object>_nonprojected.png         # Object RGB cutout
+│       ├── <object>_nonprojected_mask.png    # Object binary mask
+│       └── <object>_annotated_bboxes.png     # Bounding box visualization
+│
+├── step_2_output/                    # Step 2: Digital Cousin Matching
+│   ├── step_2_output_info.json           # Step 2 metadata
+│   ├── topk_categories.json              # Top-k category candidates per object
+│   └── <object_name>/                    # Per-object matching results
+│       ├── cousin_results.json               # Matched cousin info (category, model, pose)
+│       ├── cousin_visualization/             # Cousin comparison images
+│       ├── top_k_model_candidates/           # Top-k model candidates
+│       └── top_k_pose_candidates/            # Top-k pose candidates
+│
+└── step_3_output/                    # Step 3: Scene Generation
+    ├── step_3_output_info.json           # Complete scene information
+    └── scene_<N>/                        # Generated scene (N = 0, 1, 2, ...)
+        ├── scene_<N>_info.json               # Scene config (loadable in OmniGibson)
+        ├── scene_<N>_visualization.png       # Side-by-side: original vs reconstructed
+        ├── scene_<N>_graph.json              # Scene graph (object relationships)
+        ├── visualization_video.mp4           # 360-degree rotation video
+        └── <object_name>/                    # Per-object scene info
+            ├── <object>_scene_info.json          # Object placement info
+            └── <object>_scene_visualization.png  # Object visualization
+```
+
+#### Viewing Results
+
+1. **View visualization images:**
+   ```sh
+   # Side-by-side comparison (original vs reconstructed)
+   eog <INPUT_IMG_DIR>/acdc_output/step_3_output/scene_0/scene_0_visualization.png
+   ```
+
+2. **View 360-degree rotation video:**
+   ```sh
+   vlc <INPUT_IMG_DIR>/acdc_output/step_3_output/scene_0/visualization_video.mp4
+   ```
+
+3. **Load scene interactively in OmniGibson:**
+   ```sh
+   python digital_cousins/scripts/load_scene.py --scene_info_path <INPUT_IMG_DIR>/acdc_output/step_3_output/scene_0/scene_0_info.json
+   ```
 
 We include complex input images published in our work under `examples/images`.
 

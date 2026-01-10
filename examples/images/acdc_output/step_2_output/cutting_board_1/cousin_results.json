@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "cutting_board",
+            "model": "idmcgf",
+            "ori_offset": null,
+            "z_angle": -1.1309733552923253,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/cutting_board/model/idmcgf/idmcgf_32.png"
+        },
+        {
+            "category": "chopping_board",
+            "model": "ayegwd",
+            "ori_offset": null,
+            "z_angle": -2.5761059759436304,
+            "snapshot": "/mnt/data/workspace/digital-cousins/assets/objects/chopping_board/model/ayegwd/ayegwd_9.png"
+        }
+    ]
+}
