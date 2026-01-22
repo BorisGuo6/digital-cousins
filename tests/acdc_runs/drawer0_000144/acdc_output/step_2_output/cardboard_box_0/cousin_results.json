@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "packing_box",
+            "model": "cjhskr",
+            "ori_offset": null,
+            "z_angle": -2.701769682087222,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/packing_box/model/cjhskr/cjhskr_7.png"
+        },
+        {
+            "category": "shoe_box",
+            "model": "ioetqp",
+            "ori_offset": null,
+            "z_angle": 0.5026548245743672,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/shoe_box/model/ioetqp/ioetqp_58.png"
+        }
+    ]
+}

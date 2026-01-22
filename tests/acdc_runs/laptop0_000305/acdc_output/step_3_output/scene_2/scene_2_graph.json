@@ -1,0 +1,20 @@
+{
+    "floor": {
+        "objOnTop": [
+            "laptop_0"
+        ],
+        "objBeneath": null,
+        "mount": {
+            "floor": true,
+            "wall": false
+        }
+    },
+    "laptop_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    }
+}

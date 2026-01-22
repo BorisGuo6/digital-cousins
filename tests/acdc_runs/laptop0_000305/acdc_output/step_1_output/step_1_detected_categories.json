@@ -1,0 +1,44 @@
+{
+    "names": [
+        "laptop_0",
+        "hand_0"
+    ],
+    "phrases": [
+        "laptop",
+        "hand"
+    ],
+    "phrases_recaptioned": [
+        "laptop",
+        "hand"
+    ],
+    "segmentation_dir": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/laptop0_000305/acdc_output/step_1_output/segmented_objects",
+    "articulation_counts": {},
+    "boxes": [
+        [
+            0.45879802107810974,
+            0.5033804774284363,
+            0.7453542351722717,
+            0.8951824307441711
+        ],
+        [
+            0.8264948725700378,
+            0.5572640299797058,
+            0.34553200006484985,
+            0.8739548325538635
+        ]
+    ],
+    "logits": [
+        0.7891935110092163,
+        0.3991974890232086
+    ],
+    "mount": [
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        }
+    ]
+}

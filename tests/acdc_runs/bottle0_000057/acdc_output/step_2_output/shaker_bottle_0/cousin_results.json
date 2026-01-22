@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "oil_bottle",
+            "model": "yoxfyu",
+            "ori_offset": null,
+            "z_angle": -2.8902652413026098,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/oil_bottle/model/yoxfyu/yoxfyu_4.png"
+        },
+        {
+            "category": "water_bottle",
+            "model": "ackxiy",
+            "ori_offset": null,
+            "z_angle": 3.015928947446201,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/water_bottle/model/ackxiy/ackxiy_98.png"
+        }
+    ]
+}

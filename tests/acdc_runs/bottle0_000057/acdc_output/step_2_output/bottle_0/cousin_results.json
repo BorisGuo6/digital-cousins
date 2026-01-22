@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "bottle_of_medicine",
+            "model": "syfpak",
+            "ori_offset": null,
+            "z_angle": -1.6336281798666925,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/bottle_of_medicine/model/syfpak/syfpak_24.png"
+        },
+        {
+            "category": "bottle_of_medicine",
+            "model": "fmfwng",
+            "ori_offset": null,
+            "z_angle": 2.9530970943744057,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/bottle_of_medicine/model/fmfwng/fmfwng_97.png"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "articulated": true,
+    "cousins": [
+        {
+            "category": "bottom_cabinet",
+            "model": "mbmbpa",
+            "ori_offset": null,
+            "z_angle": 0.6911503837897546,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/bottom_cabinet/model/mbmbpa/mbmbpa_61.png"
+        },
+        {
+            "category": "bottom_cabinet",
+            "model": "dsbcxl",
+            "ori_offset": null,
+            "z_angle": 0.6911503837897546,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/bottom_cabinet/model/dsbcxl/dsbcxl_61.png"
+        }
+    ]
+}

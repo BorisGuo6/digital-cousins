@@ -1,0 +1,44 @@
+{
+    "names": [
+        "bottle_0",
+        "hand_0"
+    ],
+    "phrases": [
+        "bottle",
+        "hand"
+    ],
+    "phrases_recaptioned": [
+        "bottle",
+        "hand"
+    ],
+    "segmentation_dir": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/bottle0_000057/acdc_output/step_1_output/segmented_objects",
+    "articulation_counts": {},
+    "boxes": [
+        [
+            0.5426433682441711,
+            0.5587146878242493,
+            0.2688577175140381,
+            0.869362473487854
+        ],
+        [
+            0.7595499157905579,
+            0.20471683144569397,
+            0.47366365790367126,
+            0.39559558033943176
+        ]
+    ],
+    "logits": [
+        0.49163997173309326,
+        0.2863149642944336
+    ],
+    "mount": [
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        }
+    ]
+}

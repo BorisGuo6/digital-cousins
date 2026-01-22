@@ -1,0 +1,38 @@
+{
+    "K": [
+        [
+            1613.8111572265625,
+            0.0,
+            800.0
+        ],
+        [
+            0.0,
+            1398.044677734375,
+            600.5
+        ],
+        [
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "detected_categories": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/drawer0_000144/acdc_output/step_1_output/step_1_detected_categories.json",
+    "floor_mask": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/drawer0_000144/acdc_output/step_1_output/segmented_objects/floor/floor_mask.png",
+    "wall_mask_planes": {},
+    "z_direction": [
+        0.05407667313172646,
+        -0.6886014951600641,
+        -0.7231208020008335
+    ],
+    "origin_pos": [
+        -0.5552254801501988,
+        0.38370623022789374,
+        1.68426513671875
+    ],
+    "input_rgb": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/drawer0_000144/input_resize.jpg",
+    "input_depth": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/drawer0_000144/acdc_output/step_1_output/step_1_depth.png",
+    "depth_limits": [
+        0.0,
+        20.0
+    ]
+}

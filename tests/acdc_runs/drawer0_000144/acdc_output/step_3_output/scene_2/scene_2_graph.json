@@ -1,0 +1,47 @@
+{
+    "floor": {
+        "objOnTop": [
+            "cardboard_box_0",
+            "office_chair_1",
+            "cabinet_0",
+            "office_chair_0"
+        ],
+        "objBeneath": null,
+        "mount": {
+            "floor": true,
+            "wall": false
+        }
+    },
+    "cardboard_box_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "office_chair_1": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "cabinet_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    },
+    "office_chair_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    }
+}

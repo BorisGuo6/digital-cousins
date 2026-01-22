@@ -1,0 +1,20 @@
+{
+    "floor": {
+        "objOnTop": [
+            "bottle_0"
+        ],
+        "objBeneath": null,
+        "mount": {
+            "floor": true,
+            "wall": false
+        }
+    },
+    "bottle_0": {
+        "objOnTop": [],
+        "objBeneath": "floor",
+        "mount": {
+            "floor": true,
+            "wall": null
+        }
+    }
+}

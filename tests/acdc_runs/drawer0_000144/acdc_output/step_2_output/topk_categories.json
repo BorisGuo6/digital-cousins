@@ -1,0 +1,24 @@
+{
+    "topk_categories": {
+        "cardboard_box_0": [
+            "gift box",
+            "shoe box",
+            "packing box"
+        ],
+        "office_chair_0": [
+            "straight chair",
+            "swivel chair",
+            "armchair"
+        ],
+        "office_chair_1": [
+            "straight chair",
+            "swivel chair",
+            "armchair"
+        ],
+        "cabinet_0": [
+            "top_cabinet",
+            "bottom_cabinet",
+            "bottom_cabinet_no_top"
+        ]
+    }
+}

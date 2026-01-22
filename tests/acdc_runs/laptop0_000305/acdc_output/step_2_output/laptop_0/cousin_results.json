@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "laptop",
+            "model": "izydvb",
+            "ori_offset": null,
+            "z_angle": -0.5654866776461631,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/laptop/model/izydvb/izydvb_41.png"
+        },
+        {
+            "category": "laptop",
+            "model": "pczjnr",
+            "ori_offset": null,
+            "z_angle": 0.7539822368615501,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/laptop/model/pczjnr/pczjnr_62.png"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "metadata": {
+        "n_cousins": 2,
+        "n_objects": 4
+    },
+    "objects": {
+        "cardboard_box_0": {
+            "articulated": false,
+            "cousins": [
+                {
+                    "category": "packing_box",
+                    "model": "cjhskr",
+                    "ori_offset": null,
+                    "z_angle": -2.701769682087222,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/packing_box/model/cjhskr/cjhskr_7.png"
+                },
+                {
+                    "category": "shoe_box",
+                    "model": "ioetqp",
+                    "ori_offset": null,
+                    "z_angle": 0.5026548245743672,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/shoe_box/model/ioetqp/ioetqp_58.png"
+                }
+            ]
+        },
+        "office_chair_0": {
+            "articulated": false,
+            "cousins": [
+                {
+                    "category": "swivel_chair",
+                    "model": "aepbmj",
+                    "ori_offset": null,
+                    "z_angle": -1.6964600329384885,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/swivel_chair/model/aepbmj/aepbmj_23.png"
+                },
+                {
+                    "category": "swivel_chair",
+                    "model": "pkpcew",
+                    "ori_offset": null,
+                    "z_angle": 2.073451151369264,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/swivel_chair/model/pkpcew/pkpcew_83.png"
+                }
+            ]
+        },
+        "cabinet_0": {
+            "articulated": true,
+            "cousins": [
+                {
+                    "category": "bottom_cabinet",
+                    "model": "mbmbpa",
+                    "ori_offset": null,
+                    "z_angle": 0.6911503837897546,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/bottom_cabinet/model/mbmbpa/mbmbpa_61.png"
+                },
+                {
+                    "category": "bottom_cabinet",
+                    "model": "dsbcxl",
+                    "ori_offset": null,
+                    "z_angle": 0.6911503837897546,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/bottom_cabinet/model/dsbcxl/dsbcxl_61.png"
+                }
+            ]
+        },
+        "office_chair_1": {
+            "articulated": false,
+            "cousins": [
+                {
+                    "category": "swivel_chair",
+                    "model": "gbknnw",
+                    "ori_offset": null,
+                    "z_angle": -1.6336281798666925,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/swivel_chair/model/gbknnw/gbknnw_24.png"
+                },
+                {
+                    "category": "swivel_chair",
+                    "model": "lizuow",
+                    "ori_offset": null,
+                    "z_angle": -0.7539822368615505,
+                    "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/swivel_chair/model/lizuow/lizuow_38.png"
+                }
+            ]
+        }
+    }
+}

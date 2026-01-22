@@ -1,0 +1,77 @@
+{
+    "names": [
+        "cardboard_box_0",
+        "office_chair_0",
+        "cabinet_0",
+        "office_chair_1"
+    ],
+    "phrases": [
+        "cardboard box",
+        "office chair",
+        "cabinet",
+        "office chair"
+    ],
+    "phrases_recaptioned": [
+        "paper box",
+        "office chair",
+        "cabinet",
+        "office chair"
+    ],
+    "segmentation_dir": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/drawer0_000144/acdc_output/step_1_output/segmented_objects",
+    "articulation_counts": {
+        "2": [
+            0,
+            2
+        ]
+    },
+    "boxes": [
+        [
+            0.8974050879478455,
+            0.18095149099826813,
+            0.15233278274536133,
+            0.16652193665504456
+        ],
+        [
+            0.14686942100524902,
+            0.5255131721496582,
+            0.11084102094173431,
+            0.26200470328330994
+        ],
+        [
+            0.42412760853767395,
+            0.49569758772850037,
+            0.7057287693023682,
+            0.9903056621551514
+        ],
+        [
+            0.9252276420593262,
+            0.41647350788116455,
+            0.14718160033226013,
+            0.26618415117263794
+        ]
+    ],
+    "logits": [
+        0.6855120658874512,
+        0.49807068705558777,
+        0.5435733199119568,
+        0.3690077066421509
+    ],
+    "mount": [
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        },
+        {
+            "floor": true,
+            "wall": null
+        }
+    ]
+}

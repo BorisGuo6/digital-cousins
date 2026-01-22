@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "swivel_chair",
+            "model": "aepbmj",
+            "ori_offset": null,
+            "z_angle": -1.6964600329384885,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/swivel_chair/model/aepbmj/aepbmj_23.png"
+        },
+        {
+            "category": "swivel_chair",
+            "model": "pkpcew",
+            "ori_offset": null,
+            "z_angle": 2.073451151369264,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/swivel_chair/model/pkpcew/pkpcew_83.png"
+        }
+    ]
+}

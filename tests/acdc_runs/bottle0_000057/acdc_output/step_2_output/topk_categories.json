@@ -1,0 +1,14 @@
+{
+    "topk_categories": {
+        "bottle_0": [
+            "oil bottle",
+            "bottle of medicine",
+            "wine bottle"
+        ],
+        "hand_0": [
+            "handle",
+            "handset",
+            "kid glove"
+        ]
+    }
+}

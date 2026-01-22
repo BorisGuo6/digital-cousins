@@ -1,0 +1,14 @@
+{
+    "topk_categories": {
+        "laptop_0": [
+            "laptop",
+            "desktop computer",
+            "tablet"
+        ],
+        "hand_0": [
+            "handle",
+            "handset",
+            "kid glove"
+        ]
+    }
+}

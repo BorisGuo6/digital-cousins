@@ -1,0 +1,51 @@
+{
+    "K": [
+        [
+            1978.3160400390625,
+            0.0,
+            800.0
+        ],
+        [
+            0.0,
+            1544.8958740234375,
+            600.5
+        ],
+        [
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "detected_categories": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/bottle0_000057/acdc_output/step_1_output/step_1_detected_categories.json",
+    "floor_mask": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/bottle0_000057/acdc_output/step_1_output/segmented_objects/floor/floor_mask.png",
+    "wall_mask_planes": {
+        "/mnt/data/workspace/digital-cousins/tests/acdc_runs/bottle0_000057/acdc_output/step_1_output/segmented_objects/wall/wall_mask.png": {
+            "normal": [
+                0.5470144215429488,
+                0.5363331555514462,
+                -0.6427456486669213
+            ],
+            "point": [
+                -0.19730750329118862,
+                -0.1384490035948005,
+                0.89141845703125
+            ]
+        }
+    },
+    "z_direction": [
+        -0.022960462870523047,
+        -0.8431073366889005,
+        -0.5372549078101754
+    ],
+    "origin_pos": [
+        -0.31836070916462234,
+        0.21139915835917122,
+        0.9344482421875
+    ],
+    "input_rgb": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/bottle0_000057/input_resize.jpg",
+    "input_depth": "/mnt/data/workspace/digital-cousins/tests/acdc_runs/bottle0_000057/acdc_output/step_1_output/step_1_depth.png",
+    "depth_limits": [
+        0.0,
+        20.0
+    ]
+}

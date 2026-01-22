@@ -1,0 +1,19 @@
+{
+    "articulated": false,
+    "cousins": [
+        {
+            "category": "kid_glove",
+            "model": "njidcf",
+            "ori_offset": null,
+            "z_angle": -1.7592918860102842,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/kid_glove/model/njidcf/njidcf_22.png"
+        },
+        {
+            "category": "handle",
+            "model": "apdvez",
+            "ori_offset": null,
+            "z_angle": -0.5654866776461631,
+            "snapshot": "/mnt/data/workspace/digital-cousins/tests/acdc_assets/objects/handle/model/apdvez/apdvez_41.png"
+        }
+    ]
+}
